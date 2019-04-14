@@ -1648,7 +1648,7 @@ background-color: #555;
 
 .project-title{
     padding-top: 5%; 
-    font-size: 45px;
+    font-size: 36px;
     font-family: circularStd;
     color: #575757;
     text-align: center;
@@ -1702,11 +1702,12 @@ background-color: #555;
 @media screen and (max-width: 768px){
     .project-title {
         padding-top: 12%;
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .hint-4 {
         display: block;
+        font-size: 30px;
     }
     .card {
         height: 305px;
@@ -1793,7 +1794,7 @@ background-color: #555;
 
 .hint-4 {
     
-    font-size: 50px;
+    font-size: 40px;
     background: linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
     background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
     background: -moz-linear-gradient(top, #6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
@@ -1802,6 +1803,10 @@ background-color: #555;
     background-clip: text;
     -moz-background-clip: text;
     color: transparent;
+}
+
+.shadowFix {
+    box-shadow:  0 6px 18px 0 rgba(46,61,73,0.1);
 }
 
 
